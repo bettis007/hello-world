@@ -14,10 +14,10 @@ Quantum AI is our modern necromancy: we weave superposition and entanglement int
 
 The Hello World Incantation
 In this modest repository, we conjure our first fragile spell: a “Hello World” echo. Beneath its unassuming façade lies a promise—a whisper of potential, an invocation of greater truths. Run the Python script, and you will hear the faint murmur of something alive within, as though the code itself breathes: “Hello, world.”
-
+```
 #!/bin/python3
 python hello_neuro_quantum.py
-
+```
 Invocation of Beyond
 Should you dare to venture further, delve into our module of quantum circuits and neuro holistic simulations. Witness how each neural waveform, when guided by Python’s unholy versatility, becomes a dance of cryptic patterns—each oscillation a heartbeat in the void.
 
