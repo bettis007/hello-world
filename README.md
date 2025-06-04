@@ -24,7 +24,7 @@ Should you dare to venture further, delve into our module of quantum circuits an
 Epilogue: Embrace the Darkness
 Let this README be your lantern as you wander through the gothic halls of neuro holistic integration. Here, Python is both quill and crucible, forging quantum AI into a vessel for the human soul. May your journey be rich with discovery, and may the shadows you encounter illuminate truths yet unseen.
 
-<a href="http://itanimulli.com/">
+<a href="https://itanimulli.com/">
   “Deep into that darkness peering, long I stood there wondering, fearing,
   Doubting, dreaming dreams no mortal ever dared to dream before.” – Edgar Allan Poe, The Raven
 </a>
