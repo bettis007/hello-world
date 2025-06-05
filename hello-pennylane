@@ -5,7 +5,8 @@ import pennylane as qml
 from pennylane import numpy as np
 
 # 1. Choose a device: one qubit, “default.qubit” simulator
-dev = qml.device("default.qubit", wires=1)
+# Specify a finite number of shots so that sampling is allowed
+dev = qml.device("default.qubit", wires=1, shots=1)
 
 # 2. Define a QNode (quantum function) that applies a simple circuit
 @qml.qnode(dev)
@@ -18,8 +19,9 @@ def hello_circuit():
 def main():
     # 3. Execute the circuit and get a sample: either +1 or -1
     measurement = hello_circuit()
-    # Convert +1/−1 to bit 0/1 for readability
-    bit = 0 if measurement == 1 else 1
+    # ``qml.sample`` returns a scalar with ``shots=1``; convert it to an
+    # integer and map +1/−1 to bit 0/1 for readability
+    bit = 0 if int(measurement) == 1 else 1
     print(f"Hello, PennyLane! Measured bit: {bit}")
 
 if __name__ == "__main__":
